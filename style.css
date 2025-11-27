@@ -1,39 +1,85 @@
+/* Global */
 body {
-    background-color: #f0f0f0;
-    text-align: center;
-    padding-top: 50px;
-    font-family: Arial, sans-serif;
-}
-
-.flag-text {
-    font-size: 40px;
-    font-weight: bold;
+    margin: 0;
+    font-family: "Times New Roman", serif;
+    background-color: #f5e6c8; /* Sandstone theme */
+    color: #3b2f2f;
     text-align: center;
 }
 
-.saffron {
-    color: #FF9933;
-}
-
-.white {
-    color: #FFFFFF;
-    text-shadow: 0px 0px 2px #000;
-}
-
-.green {
-    color: #138808;
-}
-
-.btn {
-    padding: 12px 25px;
-    font-size: 18px;
-    border: none;
-    background-color: #000080; /* Navy Blue like Ashoka Chakra */
+/* Header */
+header {
+    background-color: #8B0000; /* Royal Maroon */
     color: white;
-    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.header-btn {
+    background-color: #000080;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    font-size: 16px;
+    border-radius: 6px;
     cursor: pointer;
 }
 
-.btn:hover {
-    opacity: 0.8;
+/* Hero Banner */
+.hero {
+    background: linear-gradient(90deg, #FF9933, #FFFFFF, #138808);
+    padding: 80px 20px;
+}
+
+.welcome-text {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.saffron { color: #FF9933; }
+.white { color: #ffffff; text-shadow: 1px 1px 3px black; }
+.green { color: #138808; }
+
+.tagline {
+    font-size: 20px;
+    margin-top: 10px;
+    font-style: italic;
+    color: #000080;
+}
+
+.hero-btn {
+    margin-top: 20px;
+    padding: 15px 35px;
+    background-color: #8B0000;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* About section */
+.about {
+    padding: 40px 20px;
+    background-color: #f9d9b5;
+}
+
+.about h2 {
+    color: #8B0000;
+    font-size: 32px;
+}
+
+/* Footer */
+footer {
+    background-color: #000080;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
 }
